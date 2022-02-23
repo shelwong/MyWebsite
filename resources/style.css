@@ -13,8 +13,11 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 95%;
 }
 
 h1{
