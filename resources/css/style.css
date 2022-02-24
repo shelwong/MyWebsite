@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 }
 
-html{
+html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -25,25 +25,35 @@ header{
     padding: 10px 0;
 }
 
-h1{
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
     font-size: 2rem;
 }
 
-#logo{
+h3 {
+    font-size: 1.5rem;
+}
+
+#logo {
     padding-left: 20px;
 }
 
-nav li{
+nav li {
     color:black;
     display: inline-flex;
     font-size: 1.5rem;
-    margin-right: 20px;
+    padding: 0 20px;
 }
 
-nav a:hover{
-    font-weight: bold;
+nav a:hover {
+    background-color: black;
+    color:white;
+    padding: 20px 0;
+    transition: .5s;
 }
-
 
 .banner {
     max-width: 100%;
@@ -56,7 +66,7 @@ nav a:hover{
     margin: 20px;
 }
 
-.wrapper {
+.home-wrapper {
     background-color: black;
     opacity: .7;
     position: absolute;
@@ -67,14 +77,14 @@ nav a:hover{
     border-radius: 10px;
 }
 
-.wrapper p{
+.home-wrapper p {
     color: white;
     font-size: 6rem;
     font-weight: bolder;
 }
 
-/* Footer Section */
-footer{
+/* Shared Footer Section */
+footer {
     position: relative;
     top: 100px;
     background-color: black;
@@ -82,7 +92,7 @@ footer{
     margin: 100px auto 0;
 }
 
-footer > h4{
+footer > h4 {
     color: antiquewhite;
     text-align: right;
     padding: 0 10px;

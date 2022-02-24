@@ -1,112 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 }
 
-html{
+html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px 0;
-}
-
-h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 2rem;
+h2 {
     margin: 0 auto;
 }
 
-h3{
-    font-size: 1.5rem;
+h3  {
     text-decoration: underline;
 }
 
-
-#logo{
-    padding-left: 20px;
-}
-
-#title {
-    font-size: 1.5rem;
-}
-
-nav li{
-    color:black;
-    display: inline-flex;
-    font-size: 1.5rem;
-    margin-right: 20px;
-}
-
-nav a:hover{
-    font-weight: bold;
-}
-
 #about-me {
-    font-weight: bolder;
+    background-color: black;
+    color:white;
+    padding: 20px 0;
 }
 
-body{
+body {
     position: relative;
     top: 80px;
     left: 0;
     right: 0;
 }
 
-#school{
+#school {
     max-width: 80%;
     height: 500px;
     margin: 0 auto;
 }
 
-#education{
+#education {
     width: 50%;
     float: left;
     text-align: center;
 }
 
-#school-pic{
+#school-pic {
     width: 50%;
     float: right;
 }
 
-#school-pic img{
+#school-pic img {
     height: 500px;
     width: 750px;
-}
-
-/* Back button */
-
-#back{
-    position: relative;
-    top: 80px;
-    text-align: center;
-    align-content: center;
-    margin: 0 auto;
-}
-
-#back a{
-    color: white;
-    background-color: black;
-    align-self: center;
-    padding: 10px 20px;
 }
 
 /* Hobbies Section */
@@ -134,24 +78,25 @@ body{
 
 }
 
-.hobby-card > img{
+.hobby-card > img {
     display: block;
     width: 80%;
     margin: 1rem auto;
 }
 
-/* Footer Section */
+/* Back button */
 
-footer{
+#back {
     position: relative;
-    top: 100px;
-    background-color: black;
-    padding: 10px;
-    margin: 100px auto 0;
+    top: 80px;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
 }
 
-footer > h4{
-    color: antiquewhite;
-    text-align: right;
-    padding: 0 10px;
+#back a {
+    color: white;
+    background-color: black;
+    align-self: center;
+    padding: 10px 20px;
 }
