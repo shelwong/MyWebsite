@@ -70,7 +70,9 @@
             if (xhr.readyState === 4 && xhr.status === 200) {
                 form.reset();
                 var webform = form.querySelector(".webform");
+                var cHeader = document.querySelector("#contact-header");
                 if (webform) {
+                    cHeader.style.display = "none";
                     webform.style.display = "none"; // hide form
                 }
                 var thanksMSG = form.querySelector(".thanks-msg");

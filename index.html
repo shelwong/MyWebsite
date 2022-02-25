@@ -7,19 +7,19 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-wrapper">
     <!--Header-->
-    <header>
+    <header id="site-header">
         <div id="logo">
-            <h1 id="title">Sheldon Wong</h1>
+            <h1 id="site-title">Sheldon Wong</h1>
         </div>
             <!--Nav Bar-->
         <div id="navbar">
             <nav>
                 <ul>
-                    <li><a href="./resources/about-me/about-me.html">About Me</a></li>
-                    <li><a href="#">Work Experience</a></li>
-                    <li><a href="./resources/contact/contact-me.html">Contact Me</a></li>
+                    <li><a href="./resources/about-me/about-me.html" class="nav-option">About Me</a></li>
+                    <li><a href="#" class="nav-option">Work Experience</a></li>
+                    <li><a href="./resources/contact/contact-me.html" class="nav-option">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,6 +32,17 @@
             <p>I'm Sheldon</p>
         </div>
     </section>
+
+    <section id="mode-toggle">
+        <h5 id="mode-label">Dark Mode:</h5>
+        <label class="toggle">
+            <input type="checkbox" id="dark-mode" onclick="darkMode()">
+            <span class="slider round"></span>
+        </label>
+    </section>
+
+    <script src="./resources/main.js"></script>
+
 </body>
 
 <footer>

@@ -28,9 +28,24 @@ body {
 
 /* Webform */
 
+#contact-header {
+    position: relative;
+    display: block;
+    background-color: #333;
+    width: 300px;
+    height: 3rem;
+    margin: 100px auto 0;
+    right: 50px;
+
+}
+
+#contact-header > h2 {
+    color:aliceblue;
+}
+
 .webform {
     min-width: 300px;
-    max-width: 10%;
+    max-width: 400px;
     height: auto;
     background-color: dimgrey;
     border: .25rem solid dimgray;
@@ -45,6 +60,21 @@ body {
 }
 
 .hooneypoot {
+    display: none;
+}
+
+.webform textarea {
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.button-success {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Thank you message */
+.thanks-msg {
     display: none;
 }
 
